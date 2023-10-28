@@ -24,6 +24,7 @@ defmodule Deribit do
     "get_last_trades_by_instrument_and_time",
     "get_order_book",
     "get_trade_volumes",
+    "get_tradingview_chart_data",
     "ticker"
   ]
 
@@ -37,7 +38,9 @@ defmodule Deribit do
     "get_current_deposit_address",
     "get_deposits",
     "get_transfers",
-    "get_withdrawals"
+    "get_withdrawals",
+    "buy",
+    "sell",
   ]
 
   for endpoint <- @public_get do
