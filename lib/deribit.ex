@@ -36,6 +36,7 @@ defmodule Deribit do
     "get_position",
     "get_positions",
     "get_current_deposit_address",
+    "get_user_trades_by_instrument",
     "get_deposits",
     "get_transfers",
     "get_withdrawals",
