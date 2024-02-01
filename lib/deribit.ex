@@ -37,11 +37,13 @@ defmodule Deribit do
     "get_positions",
     "get_current_deposit_address",
     "get_user_trades_by_instrument",
+    "get_open_orders_by_currency",
     "get_deposits",
     "get_transfers",
     "get_withdrawals",
     "buy",
     "sell",
+    "cancel",
   ]
 
   for endpoint <- @public_get do
