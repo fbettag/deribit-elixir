@@ -4,12 +4,12 @@ defmodule Deribit.MixProject do
   def project do
     [
       app: :deribit,
-      version: "0.2.0",
+      version: "0.2.1",
       elixir: "~> 1.8",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       name: "Deribit",
-      source_url: "https://github.com/gabrielpra1/deribit-elixir",
+      source_url: "https://github.com/fbettag/deribit-elixir",
       description: " Deribit v2 API client for Elixir",
       package: package()
     ]
@@ -27,7 +27,7 @@ defmodule Deribit.MixProject do
       files: ~w(lib mix.exs README*),
       licenses: ["Apache 2.0"],
       links: %{
-        "GitHub" => "https://github.com/gabrielpra1/deribit-elixir",
+        "GitHub" => "https://github.com/fbettag/deribit-elixir",
         "Docs" => "https://hexdocs.pm/crudry/"
       }
     ]
@@ -37,8 +37,8 @@ defmodule Deribit.MixProject do
   defp deps do
     [
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
-      {:httpoison, "~> 1.4"},
-      {:jason, "~> 1.1"}
+      {:httpoison, "~> 2.2.1"},
+      {:jason, "~> 1.4.1"}
     ]
   end
 end
