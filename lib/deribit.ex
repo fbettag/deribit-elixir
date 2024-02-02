@@ -41,6 +41,7 @@ defmodule Deribit do
     "get_deposits",
     "get_transfers",
     "get_withdrawals",
+    "get_transaction_log",
     "buy",
     "sell",
     "cancel",
