@@ -44,6 +44,7 @@ defmodule Deribit do
     "get_transaction_log",
     "buy",
     "sell",
+    "close_position",
     "cancel",
   ]
 
